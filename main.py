@@ -147,7 +147,7 @@ class AtokMultiBot:
                                 if state['count'] < state['target']:
                                     state['count'] += 1
                                     # গিটহাবে স্প্যাম কমানোর জন্য প্রতি ১০টা রিওয়ার্ড পরপর মেসেজ দিবে
-                                    if state['count'] % 10 == 0 or state['count'] == state['target']:
+                                    if state['count'] % 50 == 0 or state['count'] == state['target']:
                                         safe_log(f"⚡ [অ্যাক্টিভ] {email}: {state['count']}/{state['target']} রিওয়ার্ড সম্পন্ন।")
 
             except Exception as e:
