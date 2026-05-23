@@ -18,9 +18,9 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 ATOK_FILE_NAME = "accounts.txt"
 PROXY_FILE_NAME = "proxies.txt"
 
-CONCURRENT_ACCOUNTS = 10   # একসাথে কতগুলো একাউন্টের কাজ চলবে (সার্ভার র‍্যাম অনুযায়ী দিন)
-BOTS_PER_ACCOUNT = 15      # প্রতি একাউন্টে কতগুলো বট থ্রেড চলবে
-BASE_LIMIT = 400           # প্রতিটি একাউন্টের টার্গেট রিওয়ার্ড
+CONCURRENT_ACCOUNTS = 30   # একসাথে কতগুলো একাউন্টের কাজ চলবে (সার্ভার র‍্যাম অনুযায়ী দিন)
+BOTS_PER_ACCOUNT = 30      # প্রতি একাউন্টে কতগুলো বট থ্রেড চলবে
+BASE_LIMIT = 923           # প্রতিটি একাউন্টের টার্গেট রিওয়ার্ড
 
 # ==========================================
 # কুকিজ ও হেডার্স (আপনার অরিজিনাল কোড থেকে নেওয়া)
